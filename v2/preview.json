@@ -1,11 +1,11 @@
 {
-  "version": "2.0.0-alpha.42",
-  "notes": "# 2.0.0-alpha.42\n\n- 支持在“已是最新版本”时重新检查，更新弹窗保持可用的手动检查入口。\n- 修复GitHub Actions未配置Apple证书时，空Secret被误判为签名配置的问题。\n\n适用于macOS14及以上的Apple Silicon设备。当前为ad-hoc签名预览版，首次安装可能需要在macOS“隐私与安全性”中确认打开。\n",
-  "pub_date": "2026-11-11T06:40:55.000Z",
+  "version": "2.0.0-alpha.66",
+  "notes": "# 歇刻 2.0.0-alpha.66\n\n本版统一工程名称并包含最近的授权体验与后台改进。\n\n- 源码工程统一为 zhao-xieke，公开发行与问题反馈迁至 zhao-xieke-releases；更新、下载与反馈入口同步调整。\n- 授权管理支持批次生成、激活窗口与从首次激活起计算的使用期限、批量操作、操作记录及授权码复制与文本导出。\n- 改善授权详情抽屉、授权码遮罩、表格操作、侧栏和表单交互。\n- GitHub 检查、审计及打包均保留手动入口，本次由本机完成构建和发行。\n\n保留应用“歇刻”的名称、数据目录、设备授权协议和更新签名信任根。任务助手仍是独立工程。本包面向 Apple Silicon，属于 ad-hoc 签名预览版，尚未经 Developer ID 签名和 Apple 公证。iCloud 双机、商店交易及其他架构不在本次验收范围。\n",
+  "pub_date": "2026-11-20T02:48:28.000Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSenZLdzFUZHJlMEVNVUN3SnN0bEZFRjJ5bzF6VE1WSlEyOGlvVlMvYkNXZVpkRTA4Z1ppeEl0WHFmaEZ1TWd0NFdMc21idENqbjZPSGd2T2tDQ2V1aVJDK1cxc0xrcmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzgwMzI1CWZpbGU65q2H5Yi7IHYyLmFwcC50YXIuZ3oJdmVyc2lvbjoyLjAuMC1hbHBoYS40MgpoUCtmK0JvRmVJTGE3emF4c3A0RVVzTENxd2VxOTlueWJmbk9wR2FyaVFxTVFYYnVEY3Fab0ZQamloejlmcDd6TjFJeHZEblN5YmNIYis1OEVNWFJEQT09Cg==",
-      "url": "https://github.com/haers/xieke-releases/releases/download/xieke-v2-v2.0.0-alpha.42/Xieke-v2_2.0.0-alpha.42_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSenZLdzFUZHJlMElkb3VDTGRTdFpKUkE3SzBuanhady9ydmJuQkdHYnZ0K0ZKOUwwYzNZZmx6cDFYbEg4dFZ5SHgvR3llQ1A0K3ZoTS9OY2dENUdBUEI3c0U5RE5qa3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQzNTEyCWZpbGU65q2H5Yi7LmFwcC50YXIuZ3oJdmVyc2lvbjoyLjAuMC1hbHBoYS42NgpGYnFSZ2N4N1JOczZDTjFHUVd5VHZYNFUvRnlnMHRPWks2b2ptUlg1NGNrd3l3NDN6L0hSb1NMenl4SVNoeFNneVNLNklaaXFmSzE2MENXekdpUktBQT09Cg==",
+      "url": "https://github.com/haers/zhao-xieke-releases/releases/download/zhao-xieke-v2.0.0-alpha.66/Zhao-Xieke_2.0.0-alpha.66_aarch64.app.tar.gz"
     }
   }
 }
