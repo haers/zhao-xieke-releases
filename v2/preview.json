@@ -1,11 +1,11 @@
 {
-  "version": "2.0.0-alpha.66",
-  "notes": "# 歇刻 2.0.0-alpha.66\n\n本版统一工程名称并包含最近的授权体验与后台改进。\n\n- 源码工程统一为 zhao-xieke，公开发行与问题反馈迁至 zhao-xieke-releases；更新、下载与反馈入口同步调整。\n- 授权管理支持批次生成、激活窗口与从首次激活起计算的使用期限、批量操作、操作记录及授权码复制与文本导出。\n- 改善授权详情抽屉、授权码遮罩、表格操作、侧栏和表单交互。\n- GitHub 检查、审计及打包均保留手动入口，本次由本机完成构建和发行。\n\n保留应用“歇刻”的名称、数据目录、设备授权协议和更新签名信任根。任务助手仍是独立工程。本包面向 Apple Silicon，属于 ad-hoc 签名预览版，尚未经 Developer ID 签名和 Apple 公证。iCloud 双机、商店交易及其他架构不在本次验收范围。\n",
-  "pub_date": "2026-11-20T02:48:28.000Z",
+  "version": "2.0.0-alpha.68",
+  "notes": "# 歇刻 2.0.0-alpha.68\n\n- 时间输入统一提供小钟按钮和小时/分钟选择面板，保留手动分段录入，不再依赖浏览器私有按钮。\n- 数字输入框在公共组件层统一隐藏原生箭头；公共浮层边框使用主题颜色。\n- 保留“次日”固定占位，手输、点选、午夜语义和原有保存流程一致。\n",
+  "pub_date": "2026-11-20T14:30:30.000Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSenZLdzFUZHJlMElkb3VDTGRTdFpKUkE3SzBuanhady9ydmJuQkdHYnZ0K0ZKOUwwYzNZZmx6cDFYbEg4dFZ5SHgvR3llQ1A0K3ZoTS9OY2dENUdBUEI3c0U5RE5qa3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQzNTEyCWZpbGU65q2H5Yi7LmFwcC50YXIuZ3oJdmVyc2lvbjoyLjAuMC1hbHBoYS42NgpGYnFSZ2N4N1JOczZDTjFHUVd5VHZYNFUvRnlnMHRPWks2b2ptUlg1NGNrd3l3NDN6L0hSb1NMenl4SVNoeFNneVNLNklaaXFmSzE2MENXekdpUktBQT09Cg==",
-      "url": "https://github.com/haers/zhao-xieke-releases/releases/download/zhao-xieke-v2.0.0-alpha.66/Zhao-Xieke_2.0.0-alpha.66_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSenZLdzFUZHJlMEVVMC9TU1oyZG1ERWxGdWJOL2hIU24ranZmREh5YzF4a2s1R1VqWUIwV2ZPbllydkUxeU1KM2ZoVE9CS2pSbFJsbzVveWFZVkUwOHhqNkZ0SGV3SWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTg4MTU0CWZpbGU65q2H5Yi7LmFwcC50YXIuZ3oJdmVyc2lvbjoyLjAuMC1hbHBoYS42OAowUDdSM24wbFNhRG9MLzlCbFFsRnVGSUxXUEJ4R3FYckw0WlVqalJ5c0JRVUFSbERCb3hGeWt3azRNSFVsL094STZaSkdYMEJYTWlVSXhsMlVBOWhDQT09Cg==",
+      "url": "https://github.com/haers/zhao-xieke-releases/releases/download/zhao-xieke-v2.0.0-alpha.68/Zhao-Xieke_2.0.0-alpha.68_aarch64.app.tar.gz"
     }
   }
 }
