@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安装包与版本
+    url: https://github.com/haers/zhao-xieke-releases/releases
+    about: 查看已公开的安装包；尚未发布时列表可能为空。

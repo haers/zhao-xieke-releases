@@ -1,0 +1,47 @@
+name: 问题反馈
+description: 报告可复现的问题，请先删除敏感信息。
+labels: []
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 歇刻版本与源码提交
+      description: 从关于或诊断中读取，不必上传完整日志。
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: macOS版本与芯片
+      placeholder: 例如macOS 15，Apple Silicon
+    validations:
+      required: true
+  - type: dropdown
+    id: display
+    attributes:
+      label: 涉及的展示方式
+      options:
+        - 设置页面
+        - 普通休息窗口
+        - 全屏休息
+        - 仅系统通知
+        - 菜单栏或其他
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可选的脱敏截图或相关日志
+      description: 不上传整份配置、备份、应用列表、MCP接入信息、购买凭据或密钥。
